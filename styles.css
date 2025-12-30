@@ -1,14 +1,39 @@
 body {
-  font-family: Arial, sans-serif;
-  background: #f2f2f2;
   margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
 }
 
-header {
+.topbar {
   background: #111;
   color: white;
   padding: 20px;
   text-align: center;
+}
+
+.login-box {
+  background: white;
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.login-box input {
+  width: 90%;
+  padding: 10px;
+  margin: 8px 0;
+}
+
+.login-box button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.hint {
+  font-size: 0.85em;
+  color: #666;
 }
 
 #feed {
@@ -24,11 +49,15 @@ header {
 }
 
 .post h3 {
-  margin: 0;
+  margin: 0 0 5px 0;
+}
+
+.post a {
+  text-decoration: none;
+  color: #111;
 }
 
 .post span {
   color: #555;
   font-size: 0.9em;
 }
-
